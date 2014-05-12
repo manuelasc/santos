@@ -122,7 +122,12 @@ public class Jpane extends JFrame {
 		textPane_5.setBounds(389, 50, 103, 20);
 		contentPane.add(textPane_5);
 		
-		Button button = new Button("New button");
+		Button button = new Button("Cancelar");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+			}
+		});
 		button.setActionCommand("Cancel");
 		button.setBounds(206, 273, 93, 46);
 		contentPane.add(button);
