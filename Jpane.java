@@ -50,9 +50,9 @@ public class Jpane extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		Button MARICA = new Button("ADD");
-		MARICA.setBounds(53, 273, 103, 46);
-		contentPane.add(MARICA);
+		Button ADD = new Button("ADD");
+		ADD.setBounds(53, 273, 103, 46);
+		contentPane.add(ADD);
 		
 		JLabel lblNewLabel = new JLabel("Title");
 		lblNewLabel.setBounds(46, 11, 46, 14);
